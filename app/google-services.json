@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "666904949471",
+    "project_id": "github-20e03",
+    "storage_bucket": "github-20e03.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666904949471:android:457d4665b90265f6cb6f6a",
+        "android_client_info": {
+          "package_name": "com.aryant.github"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666904949471-ge2ptced7lgrad64fk15342hn1rbv3am.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aryant.github",
+            "certificate_hash": "1c41a88dfa312a7aa8d0f1c55a3cca87821ad0f5"
+          }
+        },
+        {
+          "client_id": "666904949471-r6ngt0bh3k5f86j23cr8ugvo37vogchf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjynaZOoGgY6o8f98TK_P7AbDFjWPCyyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666904949471-r6ngt0bh3k5f86j23cr8ugvo37vogchf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

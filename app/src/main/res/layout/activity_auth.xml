@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Progress Bar (Hidden by Default) -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <!-- Loading Text -->
+    <TextView
+        android:id="@+id/textViewLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press a button below to sign in"
+        android:textSize="18sp"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/black" />
+
+    <!-- GitHub Sign-In Button -->
+    <Button
+        android:id="@+id/btnGitHubSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In with GitHub"
+        android:backgroundTint="@android:color/black"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginTop="20dp" />
+
+    <!-- Google Sign-In Button -->
+    <Button
+        android:id="@+id/btnGoogleSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In with Google"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

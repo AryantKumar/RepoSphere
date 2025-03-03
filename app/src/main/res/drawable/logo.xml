@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Background Shape - Subtle gradient hexagon that blends with #24292e -->
+    <path
+        android:fillColor="#2d3339"
+        android:pathData="M12,2L20.5,7V17L12,22L3.5,17V7L12,2Z"/>
+
+    <!-- Subtle glow/edge to make icon pop against background -->
+    <path
+        android:strokeColor="#404850"
+        android:strokeWidth="0.3"
+        android:fillColor="#00000000"
+        android:pathData="M12,2.3L20.2,7.15V16.85L12,21.7L3.8,16.85V7.15L12,2.3Z"/>
+
+    <!-- Central Repository Symbol - Enhanced with better contrast -->
+    <path
+        android:fillColor="#e6edf3"
+        android:pathData="M12,5C9.24,5 7,7.24 7,10C7,12.17 8.35,14 10.3,14.67C10.55,14.73 10.63,14.56 10.63,14.42C10.63,14.29 10.63,13.93 10.62,13.42C9.07,13.82 8.73,12.78 8.73,12.78C8.47,12.15 8.11,11.95 8.11,11.95C7.62,11.58 8.13,11.59 8.13,11.59C8.65,11.63 8.95,12.21 8.95,12.21C9.42,13.07 10.27,12.8 10.64,12.67C10.68,12.28 10.82,12.02 10.97,11.86C9.81,11.7 8.58,11.14 8.58,8.75C8.58,8.07 8.81,7.52 9.19,7.09C9.14,6.96 8.94,6.39 9.25,5.55C9.25,5.55 9.73,5.38 10.62,6C11.09,5.87 11.59,5.8 12.09,5.8C12.59,5.8 13.09,5.87 13.56,6C14.45,5.38 14.93,5.55 14.93,5.55C15.24,6.39 15.04,6.96 14.99,7.09C15.37,7.52 15.6,8.07 15.6,8.75C15.6,11.15 14.36,11.7 13.2,11.85C13.39,12.05 13.56,12.43 13.56,13.03C13.56,13.89 13.55,14.23 13.55,14.42C13.55,14.56 13.63,14.73 13.89,14.67C15.84,14 17.18,12.17 17.18,10C17.18,7.24 14.94,5 12.18,5H12Z"/>
+
+    <!-- Connection Lines with glow effect -->
+    <path
+        android:strokeColor="#58a6ff"
+        android:strokeWidth="0.5"
+        android:strokeLineCap="round"
+        android:pathData="M9,16L6,18"/>
+
+    <path
+        android:strokeColor="#58a6ff"
+        android:strokeWidth="0.5"
+        android:strokeLineCap="round"
+        android:pathData="M15,16L18,18"/>
+
+    <path
+        android:strokeColor="#58a6ff"
+        android:strokeWidth="0.5"
+        android:strokeLineCap="round"
+        android:pathData="M12,17L12,19"/>
+
+    <!-- Connection Nodes with subtle glow -->
+    <path
+        android:fillColor="#c9d1d9"
+        android:pathData="M6,18m-0.9,0a0.9,0.9 0,1 1,1.8 0a0.9,0.9 0,1 1,-1.8 0"/>
+
+    <path
+        android:fillColor="#c9d1d9"
+        android:pathData="M18,18m-0.9,0a0.9,0.9 0,1 1,1.8 0a0.9,0.9 0,1 1,-1.8 0"/>
+
+    <path
+        android:fillColor="#c9d1d9"
+        android:pathData="M12,19m-0.9,0a0.9,0.9 0,1 1,1.8 0a0.9,0.9 0,1 1,-1.8 0"/>
+</vector>

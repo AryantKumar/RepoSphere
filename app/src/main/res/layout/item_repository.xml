@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@color/Github">
+
+    <TextView
+        android:id="@+id/repoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repository Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text"/>
+
+    <TextView
+        android:id="@+id/repoDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repository Description"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:paddingTop="4dp"/>
+
+    <TextView
+        android:id="@+id/repoStars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⭐ 0"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:paddingTop="4dp"/>
+</LinearLayout>
